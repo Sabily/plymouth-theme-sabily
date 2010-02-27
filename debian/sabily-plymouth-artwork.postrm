@@ -1,11 +1,10 @@
 #!/bin/sh
-
 set -e
 
 case "$1" in
 	purge|remove)
 	# FIXME: do this with alternatives
-	/usr/sbin/plymouth-set-default-theme --rebuild-initrd sabily
+	plymouth-set-default-theme --rebuild-initrd sabily
 	;;
 
     upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
