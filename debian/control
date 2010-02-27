@@ -9,7 +9,7 @@ Homepage: http://www.sabily.org
 Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
 
-Package: sabily-plymouth-theme
+Package: sabily-plymouth-artwork
 Architecture: all
 Depends: plymouth, ${misc:Depends}
 Description: plymouth theme for Sabily
