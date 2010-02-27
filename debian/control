@@ -1,0 +1,16 @@
+Source: sabily-plymouth-artwork
+Section: x11
+Priority: optional
+Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
+XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
+Build-Depends: debhelper (>= 7), intltool
+Standards-Version: 3.8.4
+Homepage: http://www.sabily.org
+Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
+Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
+
+Package: sabily-plymouth-theme
+Architecture: all
+Depends: plymouth, ${misc:Depends}
+Description: plymouth theme for Sabily
+ This package contain a specific Sabily theme for plymouth.

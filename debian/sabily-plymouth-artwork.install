@@ -1,0 +1,3 @@
+*.png lib/plymouth/themes/sabily/
+*.plymouth lib/plymouth/themes/sabily/
+*.script lib/plymouth/themes/sabily/
