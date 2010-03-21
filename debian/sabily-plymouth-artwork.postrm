@@ -4,7 +4,7 @@ set -e
 case "$1" in
 	purge|remove)
 	# FIXME: do this with alternatives
-	plymouth-set-default-theme --rebuild-initrd sabily
+	plymouth-set-default-theme --rebuild-initrd ubuntu-logo
 	;;
 
     upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
