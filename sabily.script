@@ -169,7 +169,7 @@ progress_indicator.bullet_height = progress_indicator.bullet_off.GetHeight ();
 progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
 progress_indicator.width = progress_indicator.bullet_width * 5;
 progress_indicator.height = progress_indicator.bullet_height;
-progress_indicator.y = logo.y + logo.height + (logo.height / 4);
+progress_indicator.y = logo.y + logo.height + (logo.height / 8);
 progress_indicator.x = (screen_width / 2) - (progress_indicator.width / 2); # logo.x + 26;
 
 #-----------------------------------------Logo functions------------------------------
@@ -345,7 +345,7 @@ fun get_message_label (label, is_fake, is_action_line) {
     message_label[0].x = (screen_width / 2) - (message_label[0].width / 2);
         
     # Put the 1st line below the logo + some spacing 
-    message_label[0].y = logo.y + logo.height + (progress_indicator.bullet_height * 7 ); # + logo_spacing;
+    message_label[0].y = logo.y + logo.height + (progress_indicator.bullet_height * 3.5 ); # + logo_spacing;
 
 
     local.fsck_label.y = message_label[0].y + (message_label[0].height + message_label[0].height / 2);
