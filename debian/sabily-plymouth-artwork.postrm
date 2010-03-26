@@ -3,8 +3,16 @@ set -e
 
 case "$1" in
 	purge|remove)
-	# FIXME: do this with alternatives
-	plymouth-set-default-theme --rebuild-initrd ubuntu-logo
+    update-alternatives \
+      --remove default.plymouth /lib/plymouth/themes/sabily/sabily.plymouth
+
+    rmdir /lib/plymouth/themes || :
+    rmdir /lib/plymouth || :
+
+    if which update-initramfs >/dev/null 2>&1
+    then
+      update-initramfs -u
+    fi
 	;;
 
     upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)

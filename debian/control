@@ -11,6 +11,6 @@ Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/s
 
 Package: sabily-plymouth-artwork
 Architecture: all
-Depends: plymouth, ${misc:Depends}
+Depends: plymouth (>= 0.8.1-1), ${misc:Depends}
 Description: plymouth theme for Sabily
  This package contain a specific Sabily theme for plymouth.

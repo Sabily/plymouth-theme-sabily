@@ -3,8 +3,14 @@ set -e
 
 case "$1" in
     configure)
-	# FIXME: do this with alternatives
-	plymouth-set-default-theme --rebuild-initrd sabily
+      update-alternatives \
+        --install /lib/plymouth/themes/default.plymouth default.plymouth \
+	      /lib/plymouth/themes/sabily/sabily.plymouth 10
+
+      if which update-initramfs >/dev/null 2>&1
+      then
+        update-initramfs -u
+      fi
 	;;
 
     abort-upgrade|abort-deconfigure|abort-remove)
