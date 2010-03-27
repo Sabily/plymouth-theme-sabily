@@ -5,7 +5,7 @@ case "$1" in
     configure)
       update-alternatives \
         --install /lib/plymouth/themes/default.plymouth default.plymouth \
-	      /lib/plymouth/themes/sabily/sabily.plymouth 10
+	      /lib/plymouth/themes/sabily/sabily.plymouth 60
 
       if which update-initramfs >/dev/null 2>&1
       then
