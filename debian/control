@@ -1,4 +1,4 @@
-Source: sabily-plymouth-artwork
+Source: plymouth-theme-sabily
 Section: x11
 Priority: optional
 Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
@@ -9,8 +9,9 @@ Homepage: http://www.sabily.org
 Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
 
-Package: sabily-plymouth-artwork
+Package: plymouth-theme-sabily
 Architecture: all
 Depends: plymouth (>= 0.8.1-1), ${misc:Depends}
+Provides: plymouth-theme
 Description: plymouth theme for Sabily
  This package contain a specific Sabily theme for plymouth.
