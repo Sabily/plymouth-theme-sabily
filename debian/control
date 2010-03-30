@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahm
 Build-Depends: debhelper (>= 7), intltool
 Standards-Version: 3.8.4
 Homepage: http://www.sabily.org
-Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-plymouth-artwork
+Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/plymouth-theme-sabily
+Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/plymouth-theme-sabily
 
 Package: plymouth-theme-sabily
 Architecture: all
