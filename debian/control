@@ -11,10 +11,11 @@ Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/p
 
 Package: plymouth-theme-sabily
 Architecture: all
-Depends: plymouth (>= 0.8.1-1), ${misc:Depends}
+Depends: plymouth (>= 0.8.1-1), plymouth-label, ${misc:Depends}
 Provides: plymouth-theme
 Description: plymouth theme for Sabily
  Sabily is a Linux distribution based on Ubuntu. It includes Islamic software
  (prayer times tool, Quran study tool, Hijri calendar etc.) and has a custom
  design.
+ .
  This package contains a specific Sabily theme for plymouth.
