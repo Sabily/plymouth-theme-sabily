@@ -173,8 +173,13 @@ resized_wallpaper_image = wallpaper_image.Scale (screen_width, screen_height);
 wallpaper_sprite = Sprite (resized_wallpaper_image);
 wallpaper_sprite.SetZ (-10000);
 
+# "special://logo" is a special keyword which finds the logo image
+    logo_filename = "sabily-logo.png";
+    progress_dot_off_filename = "progress_dot_off.png";
+    progress_dot_on_filename = "progress_dot_on.png";
+    password_field_filename = "password_field.png";
 
-logo.image = Image ("sabily-logo.png"); # "special://logo" is a special keyword which finds the logo image
+logo.image = Image (logo_filename);
 logo.sprite = Sprite ();
 logo.sprite.SetImage (logo.image);
 logo.width = logo.image.GetWidth ();
@@ -196,8 +201,8 @@ fsck_notification.image = ImageToActionText ("");
 
 status = "normal";
 
-progress_indicator.bullet_off = Image ("progress_dot_off.png");
-progress_indicator.bullet_on = Image ("progress_dot_on.png");
+progress_indicator.bullet_off = Image (progress_dot_off_filename);
+progress_indicator.bullet_on = Image (progress_dot_on_filename);
 progress_indicator.bullet_width = progress_indicator.bullet_off.GetWidth ();
 progress_indicator.bullet_height = progress_indicator.bullet_off.GetHeight ();
 progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
@@ -500,8 +505,8 @@ fun password_dialogue_setup (message_label) {
     local.entry;
     local.bullet_image;
 
-    bullet_image = Image ("progress_dot_off.png");
-    entry.image = Image ("password_field.png");
+    bullet_image = Image (progress_dot_off_filename);
+    entry.image = Image (password_field_filename);
 
     # Hide the normal labels
     prompt_active = 1;
