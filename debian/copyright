@@ -4,25 +4,20 @@ Maintainer: Sabily Designers Team <sabily-designers-team@lists.launchpad.net>
 Source: https://launchpad.net/sabily-artwork
 
 Files: *
-Copyright: 2009, Canonical Ltd.
-License: GPL-2+
+Copyright: 2010, internauta2000 (http://internauta2000.deviantart.com)
+License: GPL
 
-Files: sabily.script
-Copyright: 2009, Canonical Ltd.
-           2010, أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
-License: GPL-2+
- This script is based on the script in ubuntu-logo plymouth theme.
-
-License: GPL-2+
+License: GPL
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
+ in the `/usr/share/common-licenses/GPL' file.
 
-Files: bg_2560x1600.jpg
-Copyright: 2010, Saber OMRI <omrisaber@gmail.com>
+Files: background.jpg
+Copyright: 2010, Muslih Al-Aqqad <za12th@yahoo.com>
 License: CC-BY-SA-3.0
 
-Files: sabily-logo.png
+Files: logo.png
 Copyright: 2009, Amine Fahem <amine_fahem@gmail.com>
+           2010, Muslih Al-Aqqad <za12th@yahoo.com>
 License: CC-BY-SA-3.0
 
 License: CC-BY-SA-3.0
