@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
 XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
-Build-Depends: debhelper (>= 7), intltool
+Build-Depends: debhelper (>= 7), intltool, libplymouth-dev
 Standards-Version: 3.9.1
 Homepage: http://www.sabily.org
 Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/plymouth-theme-sabily
@@ -13,9 +13,22 @@ Package: plymouth-theme-sabily
 Architecture: all
 Depends: plymouth (>= 0.8.1-1), plymouth-label, ${misc:Depends}
 Provides: plymouth-theme
-Description: plymouth theme for Sabily
+Description: plymouth theme for Sabily (graphical theme)
  Sabily is a Linux distribution based on Ubuntu. It includes Islamic software
  (prayer times tool, Quran study tool, Hijri calendar etc.) and has a custom
  design.
  .
  This package contains a specific Sabily theme for plymouth.
+
+Package: plymouth-theme-sabily-text
+Architecture: any
+Depends: plymouth (>= 0.8.1-1), ${misc:Depends}, ${shlibs:Depends}
+Provides: plymouth-theme
+Description: plymouth theme for Sabily (text theme)
+ Sabily is a Linux distribution based on Ubuntu. It includes Islamic software
+ (prayer times tool, Quran study tool, Hijri calendar etc.) and has a custom
+ design.
+ .
+ This package contains the default sabily-text text theme used when no
+ support for a graphical theme is found on your system.
+
