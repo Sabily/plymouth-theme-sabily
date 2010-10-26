@@ -1,9 +1,9 @@
-plymouth-theme-sabily (1.2~ppa5) maverick; urgency=low
+plymouth-theme-sabily (1.2~ppa6) maverick; urgency=low
 
   * New plymouth theme for Sabily Al-Quds
   * Added sabily-text theme and plugin: plymouth-theme-sabily-text
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 26 Oct 2010 19:55:46 +0200
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 26 Oct 2010 20:38:51 +0200
 
 plymouth-theme-sabily (1.1) maverick; urgency=low
 
