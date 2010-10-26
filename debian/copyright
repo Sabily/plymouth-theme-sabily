@@ -363,6 +363,13 @@ License: CC-BY-SA-3.0
 
    Creative Commons may be contacted at http://creativecommons.org/.
 
+Files: sabily-text.*
+Copyright: 2010, Canonical Ltd.
+           2008, Red Hat, Inc.
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
 Files: debian/*
 Copyright: 2010, أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
 License: GPL-3+
