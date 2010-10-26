@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
 XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
-Build-Depends: debhelper (>= 7), intltool, libplymouth-dev
+Build-Depends: debhelper (>= 7), intltool, libplymouth-dev, pkg-config
 Standards-Version: 3.9.1
 Homepage: http://www.sabily.org
 Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/plymouth-theme-sabily
