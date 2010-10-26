@@ -184,16 +184,16 @@ view_start_animation (view_t *view)
 
   ply_terminal_set_color_hex_value (terminal,
                                     PLY_TERMINAL_COLOR_BLACK,
-                                    0x2c001e); 
+                                    0x072c00); /* 0x2c001e */
   ply_terminal_set_color_hex_value (terminal,
                                     PLY_TERMINAL_COLOR_WHITE,
                                     0xffffff);
   ply_terminal_set_color_hex_value (terminal,
                                     PLY_TERMINAL_COLOR_BROWN,
-                                    0xff4012);
+                                    0x12ff55); /* 0xff4012 */
   ply_terminal_set_color_hex_value (terminal,
                                     PLY_TERMINAL_COLOR_BLUE,
-                                    0x988592);
+                                    0x859886); /* 0x988592 */
 
   ply_text_display_set_background_color (view->display,
                                          PLY_TERMINAL_COLOR_BLACK);
@@ -423,7 +423,7 @@ animate_frame (ply_boot_splash_plugin_t *plugin,
 
       ply_text_display_set_background_color (view->display, PLY_TERMINAL_COLOR_BLACK);
       ply_text_display_set_foreground_color (view->display, PLY_TERMINAL_COLOR_WHITE);
-      ply_text_display_write (view->display, "Sabily Al-Quds");
+      ply_text_display_write (view->display, "Sabily 10.10");
 
       ply_text_display_set_cursor_position (view->display,
                                             (display_width - 10) / 2,
