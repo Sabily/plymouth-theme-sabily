@@ -1,8 +1,9 @@
-plymouth-theme-sabily (1.2~ppa9) natty; urgency=low
+plymouth-theme-sabily (1.2~ppa10) natty; urgency=low
 
   * New background for Sabily Badr
+  * Updated sabily-text theme
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 01 Mar 2011 08:24:58 +0200
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Sun, 03 Apr 2011 09:37:12 +0200
 
 plymouth-theme-sabily (1.2~ppa7) maverick; urgency=low
 
