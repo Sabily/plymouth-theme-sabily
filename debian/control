@@ -21,8 +21,8 @@ Description: plymouth theme for Sabily (graphical theme)
  This package contains a specific Sabily theme for plymouth.
 
 Package: plymouth-theme-sabily-text
-Architecture: any
-Depends: plymouth (>= 0.8.1-1), ${misc:Depends}, ${shlibs:Depends}
+Architecture: all
+Depends: ${misc:Depends}, plymouth-theme-ubuntu-text
 Provides: plymouth-theme
 Description: plymouth theme for Sabily (text theme)
  Sabily is a Linux distribution based on Ubuntu. It includes Islamic software

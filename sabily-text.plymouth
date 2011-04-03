@@ -1,4 +1,11 @@
 [Plymouth Theme]
 Name=Sabily Text
 Description=Text mode theme based on ubuntu-text theme
-ModuleName=sabily-text
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Sabily 11.04
+black=0x2c001e
+white=0xffffff
+brown=0xff4012
+blue=0x988592

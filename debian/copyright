@@ -12,7 +12,7 @@ License: GPL
  in the `/usr/share/common-licenses/GPL' file.
 
 Files: background.jpg
-Copyright: 2010, Muslih Al-Aqqad <za12th@yahoo.com>
+Copyright: 2011, Muslih Al-Aqqad <za12th@yahoo.com>
 License: CC-BY-SA-3.0
 
 Files: logo.png
@@ -365,7 +365,6 @@ License: CC-BY-SA-3.0
 
 Files: sabily-text.*
 Copyright: 2010, Canonical Ltd.
-           2008, Red Hat, Inc.
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
