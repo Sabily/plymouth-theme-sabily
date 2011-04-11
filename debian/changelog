@@ -1,9 +1,9 @@
-plymouth-theme-sabily (1.2~ppa12) natty; urgency=low
+plymouth-theme-sabily (1.2) natty; urgency=low
 
-  * New background for Sabily Badr
+  * New background for Sabily Badr (LP: #757699)
   * Remove text plugin, and use ubuntu-text plugin instead.
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Thu, 07 Apr 2011 22:51:40 +0200
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Mon, 11 Apr 2011 18:14:11 +0200
 
 plymouth-theme-sabily (1.2~ppa7) maverick; urgency=low
 
