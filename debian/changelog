@@ -1,3 +1,9 @@
+plymouth-theme-sabily (1.2.1~ppa1) natty; urgency=low
+
+  * Updated logo.png for Sabily Badr
+
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 03 May 2011 15:10:55 +0200
+
 plymouth-theme-sabily (1.2) natty; urgency=low
 
   * New background for Sabily Badr (LP: #757699)
