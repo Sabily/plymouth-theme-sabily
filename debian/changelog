@@ -1,4 +1,4 @@
-plymouth-theme-sabily (1.2.1~ppa3) oneiric; urgency=low
+plymouth-theme-sabily (1.2.1~ppa4) oneiric; urgency=low
 
   * New background & logo for Sabily Uhud
   * debian/copyright: Updated copyright years & format.
@@ -6,7 +6,7 @@ plymouth-theme-sabily (1.2.1~ppa3) oneiric; urgency=low
   * debian/control: Bumped Standards-Version to 3.9.2, no changes needed.
   * sabily-text.plymouth: updated version.
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Mon, 31 Oct 2011 13:56:31 +0200
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 01 Nov 2011 14:30:58 +0200
 
 plymouth-theme-sabily (1.2.1~ppa1) natty; urgency=low
 
